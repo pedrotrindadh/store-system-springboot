@@ -16,9 +16,9 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 
-@JsonPropertyOrder({"id", "moment", "orderStatus", "client_id"})
 @Entity
 @Table(name = "/tb_order")
+@JsonPropertyOrder({"id", "moment", "orderStatus", "client_id"})
 public class Order implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
